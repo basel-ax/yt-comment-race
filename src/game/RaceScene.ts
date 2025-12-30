@@ -1,6 +1,5 @@
-import { Application, Graphics, Sprite, Container } from 'pixi.js';
+import { Application, Graphics, Sprite } from 'pixi.js';
 import { generateCarTexture } from '../services/carGenerator';
-import { Car } from '../types/index';
 
 export class RaceScene {
   private app: Application;
