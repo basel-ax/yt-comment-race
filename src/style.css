@@ -1,0 +1,32 @@
+#app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#game-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#game-canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+#legend {
+  max-width: 200px;
+}
+
+@media (max-width: 768px) {
+  #app {
+    padding: 10px;
+  }
+  #legend {
+    position: static !important;
+    margin-top: 10px;
+  }
+}
